@@ -25,10 +25,10 @@ function Projects() {
             <ProjectCard
               imgPath={chatify}
               isBlog={false}
-              title="Chatify"
-              description="Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages."
-              ghLink="https://github.com/soumyajit4419/Chatify"
-              demoLink="https://chatify-49.web.app/"
+              title="Study Notion"
+              description="A comprehensive ed-teach platform leveraging the MERN stack (MongoDB, Express.js, ReactJS, Node.js), facilitating content creation, consumption, and rating through CRUD operations. Highlights include OTP-based authentication, Course management, Payment Integration, Cloud-based media handling, and personalized Student/Teacher Dashboards.."
+              ghLink="https://github.com/arpitpandey040/studyNotion"
+              demoLink="https://study-notion-orcin.vercel.app/"
             />
           </Col>
 
@@ -36,10 +36,10 @@ function Projects() {
             <ProjectCard
               imgPath={bitsOfCode}
               isBlog={false}
-              title="Bits-0f-C0de"
-              description="My personal blog page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode and easy to write blogs using markdown."
-              ghLink="https://github.com/soumyajit4419/Bits-0f-C0de"
-              demoLink="https://blogs.soumya-jit.tech/"
+              title="Freelansters"
+              description="A freelancer website built with the MEAN stack (MongoDB, Express, Angular, Node.js) connects freelancers and clients. Freelancers can create profiles, browse jobs, and apply for projects, while clients post jobs, review profiles, and hire talent. The platform handles user authentication, job listings, and secure payments efficiently using a full-stack JavaScript solution."
+              ghLink="https://github.com/arpitpandey040/Freelansters"
+              demoLink="https://github.com/arpitpandey040/Freelansters"
             />
           </Col>
 
@@ -47,10 +47,10 @@ function Projects() {
             <ProjectCard
               imgPath={editor}
               isBlog={false}
-              title="Editor.io"
-              description="Online code and markdown editor build with react.js. Online Editor which supports html, css, and js code with instant view of website. Online markdown editor for building README file which supports GFM, Custom Html tags with toolbar and instant preview.Both the editor supports auto save of work using Local Storage"
-              ghLink="https://github.com/soumyajit4419/Editor.io"
-              demoLink="https://editor.soumya-jit.tech/"              
+              title="Sorting Visualizer"
+              description="A Sorting Visualizer is a web application that visually demonstrates sorting algorithms like Bubble Sort, Selection Sort, Merge Sort, and Quick Sort. Users can select an algorithm, adjust the input size, and watch as the algorithm steps through and sorts the data in real-time. It's an interactive and educational tool to help users understand how different sorting techniques work, with animations showing the process of comparing, swapping, and dividing data."
+              ghLink="https://github.com/arpitpandey040/sortingVisualizer.github.io"
+              demoLink="https://arpitpandey040.github.io/sortingVisualizer.github.io/"
             />
           </Col>
 
@@ -58,10 +58,10 @@ function Projects() {
             <ProjectCard
               imgPath={leaf}
               isBlog={false}
-              title="Plant AI"
-              description="Used the plant disease dataset from Kaggle and trained a image classifer model using 'PyTorch' framework using CNN and Transfer Learning with 38 classes of various plant leaves. The model was successfully able to detect diseased and healthy leaves of 14 unique plants. I was able to achieve an accuracy of 98% by using Resnet34 pretrained model."
-              ghLink="https://github.com/soumyajit4419/Plant_AI"
-              demoLink="https://plant49-ai.herokuapp.com/"
+              title="Crafti - an Agency Website"
+              description="Crafti is a platform that offers top-quality handmade products. It features a clean, user-friendly design where customers can browse and purchase unique, handcrafted items. With detailed product descriptions and images, Crafti provides an enjoyable shopping experience for handmade goods enthusiasts."
+              ghLink="https://github.com/arpitpandey040/Crafti"
+              demoLink="https://arpitpandey040.github.io/Crafti/"
             />
           </Col>
 
@@ -69,10 +69,10 @@ function Projects() {
             <ProjectCard
               imgPath={suicide}
               isBlog={false}
-              title="Ai For Social Good"
-              description="Using 'Natural Launguage Processing' for the detection of suicide-related posts and user's suicide ideation in cyberspace  and thus helping in sucide prevention."
-              ghLink="https://github.com/soumyajit4419/AI_For_Social_Good"
-              // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
+              title="Arogya"
+              description="Arogya is a health platform that predicts diseases like diabetes, heart disease, and Parkinson's using machine learning algorithms. By analyzing user data, it provides early detection insights, helping users take preventive measures and manage their health more effectively."
+              ghLink="https://github.com/arpitpandey040/Arogya"
+              demoLink="https://app-pred-dise.onrender.com/"
             />
           </Col>
 
@@ -80,11 +80,10 @@ function Projects() {
             <ProjectCard
               imgPath={emotion}
               isBlog={false}
-              title="Face Recognition and Emotion Detection"
-              description="Trained a CNN classifier using 'FER-2013 dataset' with Keras and tensorflow backened. The classifier sucessfully predicted the various types of emotions of human. And the highest accuracy obtained with the model was 60.1%.
-              Then used Open-CV to detect the face in an image and then pass the face to the classifer to predict the emotion of a person."
-              ghLink="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
-              // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
+              title="ToDo"
+              description="A dynamic and user-friendly ToDo list application developed using HTML, CSS, and JavaScript, providing an intuitive interface for efficiently managing tasks, creating reminders, and enhancing productivity."
+              ghLink="https://github.com/arpitpandey040/ToDo--React-App"
+              // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here
             />
           </Col>
         </Row>

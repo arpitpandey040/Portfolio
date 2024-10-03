@@ -7,7 +7,7 @@ import logo from "../Assets/HomeLogo2.png";
 import Button from "react-bootstrap/Button";
 import { Link } from "react-router-dom";
 import { CgGitFork } from "react-icons/cg";
-import { ImBlog } from "react-icons/im";
+import './navbar.css';
 import {
   AiFillStar,
   AiOutlineHome,
@@ -39,8 +39,9 @@ function NavBar() {
       className={navColour ? "sticky" : "navbar"}
     >
       <Container>
-        <Navbar.Brand href="/" >
-          <img src={logo} className="img-fluid logo" alt="brand" />
+        <Navbar.Brand href="/">
+          {/* <img src={logo} className="img-fluid logo" alt="brand" /> */}
+          <h1 className="qwitcher-grypen-regular">Arpit Pandey</h1>
         </Navbar.Brand>
         <Navbar.Toggle
           aria-controls="responsive-navbar-nav"
@@ -48,7 +49,7 @@ function NavBar() {
             updateExpanded(expand ? false : "expanded");
           }}
         >
-          <span></span>
+          <span>abc </span>
           <span></span>
           <span></span>
         </Navbar.Toggle>
@@ -93,7 +94,7 @@ function NavBar() {
               </Nav.Link>
             </Nav.Item>
 
-            <Nav.Item>
+            {/* <Nav.Item>
               <Nav.Link
                 href="https://soumyajitblogs.vercel.app/"
                 target="_blank"
@@ -101,11 +102,11 @@ function NavBar() {
               >
                 <ImBlog style={{ marginBottom: "2px" }} /> Blogs
               </Nav.Link>
-            </Nav.Item>
+            </Nav.Item> */}
 
             <Nav.Item className="fork-btn">
               <Button
-                href="https://github.com/soumyajit4419/Portfolio"
+                href="https://github.com/arpitpandey040/Portfolio"
                 target="_blank"
                 className="fork-btn-inner"
               >
