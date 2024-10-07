@@ -39,7 +39,7 @@ function Projects() {
               title="Freelansters"
               description="A freelancer website built with the MEAN stack (MongoDB, Express, Angular, Node.js) connects freelancers and clients. Freelancers can create profiles, browse jobs, and apply for projects, while clients post jobs, review profiles, and hire talent. The platform handles user authentication, job listings, and secure payments efficiently using a full-stack JavaScript solution."
               ghLink="https://github.com/arpitpandey040/Freelansters"
-              demoLink="https://github.com/arpitpandey040/Freelansters"
+              demoLink="http://www.gpsmyeye.com/"
             />
           </Col>
 
@@ -83,6 +83,16 @@ function Projects() {
               title="ToDo"
               description="A dynamic and user-friendly ToDo list application developed using HTML, CSS, and JavaScript, providing an intuitive interface for efficiently managing tasks, creating reminders, and enhancing productivity."
               ghLink="https://github.com/arpitpandey040/ToDo--React-App"
+              demoLink="https://todo-app--1.vercel.app/"     
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={emotion}
+              isBlog={false}
+              title="Stock Prediction"
+              description="A dynamic and user-friendly ToDo list application developed using HTML, CSS, and JavaScript, providing an intuitive interface for efficiently managing tasks, creating reminders, and enhancing productivity."
+              ghLink="https://github.com/arpitpandey040/Portfolio"
               // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here
             />
           </Col>
