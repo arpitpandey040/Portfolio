@@ -8,6 +8,8 @@ import editor from "../../Assets/Projects/codeEditor.png";
 import chatify from "../../Assets/Projects/chatify.png";
 import suicide from "../../Assets/Projects/suicide.png";
 import bitsOfCode from "../../Assets/Projects/blog.png";
+import freelansters from '../../Assets/freelansters.png'
+import stock from '../../Assets/stock.png'
 
 function Projects() {
   return (
@@ -35,6 +37,16 @@ function Projects() {
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={bitsOfCode}
+              isBlog={false}
+              title="GPSMYEYE"
+              description="GPSMYEYE is a vehicle tracking system built using the MEAN stack (MongoDB, Express, Angular, Node.js). It provides real-time tracking of vehicles, ensuring efficient monitoring and management. The project focuses on back-end development to handle data processing, routing, and database integration for seamless tracking performance."
+              // ghLink="https://github.com/arpitpandey040/Freelansters"
+              demoLink="http://www.gpsmyeye.com/"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={freelansters}
               isBlog={false}
               title="Freelansters"
               description="A freelancer website built with the MEAN stack (MongoDB, Express, Angular, Node.js) connects freelancers and clients. Freelancers can create profiles, browse jobs, and apply for projects, while clients post jobs, review profiles, and hire talent. The platform handles user authentication, job listings, and secure payments efficiently using a full-stack JavaScript solution."
@@ -88,7 +100,7 @@ function Projects() {
           </Col>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={emotion}
+              imgPath={stock}
               isBlog={false}
               title="Stock Prediction"
               description="A dynamic and user-friendly ToDo list application developed using HTML, CSS, and JavaScript, providing an intuitive interface for efficiently managing tasks, creating reminders, and enhancing productivity."
